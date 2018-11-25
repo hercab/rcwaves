@@ -1,0 +1,7 @@
+name: 'rcwaves Newsletter'
+type: module
+description: 'Custom Stuff for rc-waves newsletter'
+core: 8.x
+package: 'rcwaves-custom'
+dependencies:
+  - simplenews
