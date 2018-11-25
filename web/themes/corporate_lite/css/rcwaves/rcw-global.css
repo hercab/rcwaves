@@ -1,0 +1,18 @@
+.block-system-main-block {
+    text-align: center;
+}
+
+.block-system-main-block .content{
+    display: inline-block;
+}
+
+.user-login-form {
+    text-align: left;
+}
+
+
+/* Simple news block  */
+
+.block-simplenews{
+    text-align: center;
+}
