@@ -1,0 +1,7 @@
+name: 'Social menu links lavoro'
+type: module
+description: 'Add spotify, soundcloud services... services'
+core: 8.x
+package: 'lavoro Sporco'
+dependencies:
+  - social_media_links

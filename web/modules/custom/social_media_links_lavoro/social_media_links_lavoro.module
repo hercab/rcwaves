@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains social_media_links_lavoro.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function social_media_links_lavoro_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the social_media_links_lavoro module.
+    case 'help.page.social_media_links_lavoro':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add spotify, soundcloud services... services') . '</p>';
+      return $output;
+
+    default:
+  }
+}
