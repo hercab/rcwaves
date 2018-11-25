@@ -1,0 +1,14 @@
+format: full_html
+name: ''
+mail: ''
+linkonly: false
+textonly: false
+sitestyle: true
+simple_address: false
+engine: mimemail
+preserve_class: false
+advanced:
+  incoming: false
+  key: ''
+_core:
+  default_config_hash: 7mRdLbI-Rda0ePrw4IkNSJd8m_lTx7nLZnVfbNbyfwA

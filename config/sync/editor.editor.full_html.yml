@@ -41,6 +41,11 @@ settings:
             - DrupalImage
             - Table
             - HorizontalRule
+            - media_entity_embed
+        -
+          name: Content
+          items:
+            - node
         -
           name: 'Block Formatting'
           items:
@@ -51,6 +56,8 @@ settings:
             - ShowBlocks
             - Source
   plugins:
+    language:
+      language_list: un
     stylescombo:
       styles: ''
 image_upload:
@@ -59,5 +66,5 @@ image_upload:
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

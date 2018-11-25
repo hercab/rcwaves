@@ -1,0 +1,124 @@
+uuid: a7e066c5-7552-488a-9052-e456d87035be
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - corporate_lite
+id: socialmedialinks
+theme: corporate_lite
+region: header_top_second
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    behance:
+      value: ''
+      description: ''
+      weight: '-10'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-9'
+    contact:
+      value: contact
+      description: ''
+      weight: '-8'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-7'
+    email:
+      value: ''
+      description: ''
+      weight: '-6'
+    facebook:
+      value: rcwaves
+      description: ''
+      weight: '-5'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-4'
+    github:
+      value: ''
+      description: ''
+      weight: '-3'
+    googleplus:
+      value: rcwaves
+      description: ''
+      weight: '-2'
+    instagram:
+      value: rcwaves
+      description: ''
+      weight: '-1'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '0'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '1'
+    rss:
+      value: ''
+      description: ''
+      weight: '2'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '3'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '4'
+    twitter:
+      value: rcwaves
+      description: ''
+      weight: '5'
+    vimeo:
+      value: rcwaves
+      description: ''
+      weight: '6'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '7'
+    youtube:
+      value: ''
+      description: ''
+      weight: '8'
+    youtube_channel:
+      value: rcwaves
+      description: ''
+      weight: '9'
+    Soundcloud:
+      value: ''
+      description: ''
+      weight: '10'
+    spotify:
+      value: ''
+      description: ''
+      weight: '11'
+    Web:
+      value: rcwaves.it
+      description: ''
+      weight: '12'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: _blank
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }
