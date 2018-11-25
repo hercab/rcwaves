@@ -1,0 +1,31 @@
+uuid: f285ad28-b775-479a-8bbe-c523b5f33779
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:paragraphs_block:21f27982-4b2c-494e-b109-4ddbc3fddb8c'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: featuredproject
+theme: corporate_lite
+region: content_top_highlighted
+weight: -19
+provider: null
+plugin: 'block_content:21f27982-4b2c-494e-b109-4ddbc3fddb8c'
+settings:
+  id: 'block_content:21f27982-4b2c-494e-b109-4ddbc3fddb8c'
+  label: 'Featured Project'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

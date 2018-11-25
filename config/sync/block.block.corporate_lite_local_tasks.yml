@@ -1,0 +1,31 @@
+uuid: 1b1ced6f-4386-4392-8cce-e33cddec625d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: 07UvOJvrEeLC7WKhrx5PcLo8BQviyZVgfIK3uv9_86s
+id: corporate_lite_local_tasks
+theme: corporate_lite
+region: content
+weight: -16
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

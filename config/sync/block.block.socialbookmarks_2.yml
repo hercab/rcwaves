@@ -1,0 +1,25 @@
+uuid: 6e0579a9-15dc-4763-98ef-9ecf2855331e
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:f8c84584-d266-4c46-9ba0-1bd4529d7f9a'
+  module:
+    - block_content
+  theme:
+    - corporate_lite
+id: socialbookmarks_2
+theme: corporate_lite
+region: footer_top_second
+weight: 0
+provider: null
+plugin: 'block_content:f8c84584-d266-4c46-9ba0-1bd4529d7f9a'
+settings:
+  id: 'block_content:f8c84584-d266-4c46-9ba0-1bd4529d7f9a'
+  label: 'Social Bookmarks'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 311655ee-3c55-426e-a323-6abfae3d41e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.bp_contact.bp_background
+    - field.field.paragraph.bp_contact.bp_contact
+    - field.field.paragraph.bp_contact.bp_width
+    - paragraphs.paragraphs_type.bp_contact
+_core:
+  default_config_hash: gVSZJANQbNzqn0kI-9Gt83vDeaWNWw8EhpzxbxGD1YU
+id: paragraph.bp_contact.teaser
+targetEntityType: paragraph
+bundle: bp_contact
+mode: teaser
+content: {  }
+hidden:
+  bp_background: true
+  bp_contact: true
+  bp_width: true
+  created: true
+  uid: true

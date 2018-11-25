@@ -1,0 +1,19 @@
+uuid: f08f60c1-6341-49de-a045-92d8990cba0e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'News RCWAVES'
+id: default
+description: 'Default RCWAVES Newsletter'
+format: html
+priority: 3
+receipt: false
+from_name: RCWAVES
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: noreply@domain.com
+hyperlinks: false
+new_account: silent
+opt_inout: double
+weight: 0

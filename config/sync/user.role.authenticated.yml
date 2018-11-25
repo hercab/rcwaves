@@ -1,0 +1,39 @@
+uuid: 808d06a3-3db8-40f1-8668-27362c77fe82
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'subscribe to newsletters'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view paragraph content bp_accordion'
+  - 'view paragraph content bp_accordion_section'
+  - 'view paragraph content bp_blank'
+  - 'view paragraph content bp_block'
+  - 'view paragraph content bp_carousel'
+  - 'view paragraph content bp_column_wrapper'
+  - 'view paragraph content bp_columns'
+  - 'view paragraph content bp_columns_three_uneven'
+  - 'view paragraph content bp_columns_two_uneven'
+  - 'view paragraph content bp_contact'
+  - 'view paragraph content bp_image'
+  - 'view paragraph content bp_modal'
+  - 'view paragraph content bp_simple'
+  - 'view paragraph content bp_tab_section'
+  - 'view paragraph content bp_tabs'
+  - 'view paragraph content bp_view'
+  - 'view paragraph content ido_media'
+  - 'view paragraph content ido_social'

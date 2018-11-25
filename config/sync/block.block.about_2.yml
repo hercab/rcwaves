@@ -1,0 +1,25 @@
+uuid: 2aeb7714-4d68-4e13-96ec-97cf1abed38d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3416b442-4529-4214-b820-a22ec45687bc'
+  module:
+    - block_content
+  theme:
+    - corporate_lite
+id: about_2
+theme: corporate_lite
+region: footer_first
+weight: -10
+provider: null
+plugin: 'block_content:3416b442-4529-4214-b820-a22ec45687bc'
+settings:
+  id: 'block_content:3416b442-4529-4214-b820-a22ec45687bc'
+  label: About
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

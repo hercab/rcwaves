@@ -1,0 +1,23 @@
+uuid: 5c4af863-4262-4ef4-b084-332b4dfa74fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.bp_simple.bp_background
+    - field.field.paragraph.bp_simple.bp_text
+    - field.field.paragraph.bp_simple.bp_width
+    - paragraphs.paragraphs_type.bp_simple
+_core:
+  default_config_hash: bxN1tJcdaoRlv2G7dZgN_nfUy4rsdOmqgPcs04HzIdc
+id: paragraph.bp_simple.teaser
+targetEntityType: paragraph
+bundle: bp_simple
+mode: teaser
+content: {  }
+hidden:
+  bp_background: true
+  bp_text: true
+  bp_width: true
+  created: true
+  uid: true

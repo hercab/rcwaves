@@ -1,0 +1,31 @@
+uuid: 5926cc12-b233-4dd6-b2c5-3334088cda22
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:06c94de9-b57a-4a25-9e1c-cc0cecedd5fe'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: featuredproductsandservices
+theme: corporate_lite
+region: content_top_highlighted
+weight: -17
+provider: null
+plugin: 'block_content:06c94de9-b57a-4a25-9e1c-cc0cecedd5fe'
+settings:
+  id: 'block_content:06c94de9-b57a-4a25-9e1c-cc0cecedd5fe'
+  label: 'Featured Products and Services'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

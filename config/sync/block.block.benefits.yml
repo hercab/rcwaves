@@ -1,0 +1,31 @@
+uuid: 1c3c64a5-e24d-4f60-b904-f3e1aa2a1d5a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c3eb0c92-3491-45de-ae83-ea556415ac82'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: benefits
+theme: corporate_lite
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:c3eb0c92-3491-45de-ae83-ea556415ac82'
+settings:
+  id: 'block_content:c3eb0c92-3491-45de-ae83-ea556415ac82'
+  label: 'Why Choose Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

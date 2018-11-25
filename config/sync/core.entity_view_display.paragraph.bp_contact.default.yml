@@ -1,0 +1,43 @@
+uuid: a58f0c47-f1a9-432a-a662-63b3e513de0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bp_contact.bp_background
+    - field.field.paragraph.bp_contact.bp_contact
+    - field.field.paragraph.bp_contact.bp_width
+    - paragraphs.paragraphs_type.bp_contact
+  module:
+    - contact_formatter
+    - options
+_core:
+  default_config_hash: gVSZJANQbNzqn0kI-9Gt83vDeaWNWw8EhpzxbxGD1YU
+id: paragraph.bp_contact.default
+targetEntityType: paragraph
+bundle: bp_contact
+mode: default
+content:
+  bp_background:
+    type: list_default
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  bp_contact:
+    type: contact_field_formatter
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  bp_width:
+    type: list_default
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

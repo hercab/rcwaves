@@ -1,0 +1,15 @@
+uuid: 3294b409-25dd-46f9-9751-bf6c0153c554
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.ido_media.field_media_source
+    - paragraphs.paragraphs_type.ido_media
+id: paragraph.ido_media.teaser
+targetEntityType: paragraph
+bundle: ido_media
+mode: teaser
+content: {  }
+hidden:
+  field_media_source: true

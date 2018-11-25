@@ -1,0 +1,31 @@
+uuid: 48de3b24-041c-4448-b538-993f3a9afdeb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:paragraphs_block:1353d455-c313-42e9-817b-5a733890b074'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: whychooseus
+theme: corporate_lite
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:1353d455-c313-42e9-817b-5a733890b074'
+settings:
+  id: 'block_content:1353d455-c313-42e9-817b-5a733890b074'
+  label: 'why choose us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

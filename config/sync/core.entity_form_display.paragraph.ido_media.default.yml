@@ -1,0 +1,24 @@
+uuid: 92a1b7e5-9ade-4351-8f07-41df6a9d131e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ido_media.field_media_source
+    - paragraphs.paragraphs_type.ido_media
+  module:
+    - media_library
+id: paragraph.ido_media.default
+targetEntityType: paragraph
+bundle: ido_media
+mode: default
+content:
+  field_media_source:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

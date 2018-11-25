@@ -1,0 +1,24 @@
+uuid: c9b31800-81ae-41af-9cab-b551bdab847c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ido_social.field_social_media
+    - paragraphs.paragraphs_type.ido_social
+  module:
+    - social_media_links_field
+id: paragraph.ido_social.default
+targetEntityType: paragraph
+bundle: ido_social
+mode: default
+content:
+  field_social_media:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: social_media_links_field_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,25 @@
+uuid: adbbd564-39d5-40f9-b96a-f9ba75d8ece2
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:97d36700-092e-4c4f-9a14-3fee1a1a3384'
+  module:
+    - block_content
+  theme:
+    - corporate_lite
+id: subscribe
+theme: corporate_lite
+region: footer_top_first
+weight: 0
+provider: null
+plugin: 'block_content:97d36700-092e-4c4f-9a14-3fee1a1a3384'
+settings:
+  id: 'block_content:97d36700-092e-4c4f-9a14-3fee1a1a3384'
+  label: Subscribe
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

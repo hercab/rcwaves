@@ -1,0 +1,25 @@
+uuid: ce83f224-0476-4282-8eb0-569874efb727
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.wide_16x9
+  module:
+    - crop
+name: wide_16x9
+label: Wide-16x9
+effects:
+  0490d60f-4e96-48ad-9b4b-11394d26f9b6:
+    uuid: 0490d60f-4e96-48ad-9b4b-11394d26f9b6
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: wide_16x9
+  5fa82602-e65c-49bb-8cdb-4c84b47286db:
+    uuid: 5fa82602-e65c-49bb-8cdb-4c84b47286db
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 750
+      height: 500
+      anchor: center-center

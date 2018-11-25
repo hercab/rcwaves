@@ -1,0 +1,8 @@
+uuid: 36857493-86da-404f-9d21-94910efd329e
+langcode: en
+status: true
+dependencies: {  }
+id: paragraphs_block
+label: 'Paragraphs Block'
+revision: 0
+description: 'Flexible Block'

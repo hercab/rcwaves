@@ -1,0 +1,24 @@
+uuid: 406f03f9-f826-4865-a973-24c2421fc7b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - corporate_lite
+id: views_block__comments_recent_block_1_2
+theme: corporate_lite
+region: footer_second
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

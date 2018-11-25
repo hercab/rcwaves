@@ -1,0 +1,31 @@
+uuid: 6c4d98c4-b316-4032-8d58-94093c3c40ef
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:12df9ad2-6873-404a-aea7-26ed03646e5b'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: sidebarblockwithimage
+theme: corporate_lite
+region: sidebar_second
+weight: -14
+provider: null
+plugin: 'block_content:12df9ad2-6873-404a-aea7-26ed03646e5b'
+settings:
+  id: 'block_content:12df9ad2-6873-404a-aea7-26ed03646e5b'
+  label: 'Sidebar block with image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/4\r\n/node/10\r\n/contact\r\n<front>"
+    negate: true
+    context_mapping: {  }

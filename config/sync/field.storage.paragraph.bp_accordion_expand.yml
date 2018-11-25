@@ -1,0 +1,20 @@
+uuid: 0d413586-7d20-4c7f-81b8-0d00b95adfa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: StM2qOSGVlq_gMLK-hLqySeGLnmMYkG114Fs9YC7B6o
+id: paragraph.bp_accordion_expand
+field_name: bp_accordion_expand
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 298e4afb-dd68-4da7-bac6-278b650bb362
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.bp_accordion_section.bp_accordion_section_body
+    - field.field.paragraph.bp_accordion_section.bp_accordion_section_title
+    - field.field.paragraph.bp_accordion_section.bp_show_button
+    - paragraphs.paragraphs_type.bp_accordion_section
+_core:
+  default_config_hash: YWoekjQ8sa9OCruOV2rfhZqALSActgOVVQu33v3_gFw
+id: paragraph.bp_accordion_section.teaser
+targetEntityType: paragraph
+bundle: bp_accordion_section
+mode: teaser
+content: {  }
+hidden:
+  bp_accordion_section_body: true
+  bp_accordion_section_title: true
+  bp_show_button: true
+  created: true
+  uid: true

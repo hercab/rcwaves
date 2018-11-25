@@ -1,0 +1,31 @@
+uuid: efd5a0b9-9ef8-4fb3-a5d3-d186b7881123
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:paragraphs_block:cf215dca-e406-4a8a-922b-e74621f773d9'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: contact
+theme: corporate_lite
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:cf215dca-e406-4a8a-922b-e74621f773d9'
+settings:
+  id: 'block_content:cf215dca-e406-4a8a-922b-e74621f773d9'
+  label: Contact
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

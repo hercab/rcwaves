@@ -1,0 +1,15 @@
+uuid: 8791655d-bcf5-4a7f-b059-e8195b516b73
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.ido_social.field_social_media
+    - paragraphs.paragraphs_type.ido_social
+id: paragraph.ido_social.teaser
+targetEntityType: paragraph
+bundle: ido_social
+mode: teaser
+content: {  }
+hidden:
+  field_social_media: true

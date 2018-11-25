@@ -1,0 +1,23 @@
+uuid: 507a2ada-4abe-4dd2-913f-eab1d49d2887
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.bp_columns.bp_background
+    - field.field.paragraph.bp_columns.bp_column_content
+    - field.field.paragraph.bp_columns.bp_width
+    - paragraphs.paragraphs_type.bp_columns
+_core:
+  default_config_hash: wIDWPSouhITkH6QV8vXzWJ-cbN-dEYeBvMGBS0jV4x0
+id: paragraph.bp_columns.teaser
+targetEntityType: paragraph
+bundle: bp_columns
+mode: teaser
+content: {  }
+hidden:
+  bp_background: true
+  bp_column_content: true
+  bp_width: true
+  created: true
+  uid: true

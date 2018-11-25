@@ -1,0 +1,12 @@
+uuid: 5b638c8f-d2dc-4eaf-9fb8-9d9253e75016
+langcode: en
+status: true
+dependencies: {  }
+label: wide-16x9
+id: wide_16x9
+description: wide-16x9
+aspect_ratio: '16:9'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

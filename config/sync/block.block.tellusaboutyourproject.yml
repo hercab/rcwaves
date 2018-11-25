@@ -1,0 +1,31 @@
+uuid: ec395931-cc46-4fe0-9dfb-3e537cb2ccfd
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c162d7ac-ebf3-4ebd-9b6d-69412b21bdc2'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: tellusaboutyourproject
+theme: corporate_lite
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:c162d7ac-ebf3-4ebd-9b6d-69412b21bdc2'
+settings:
+  id: 'block_content:c162d7ac-ebf3-4ebd-9b6d-69412b21bdc2'
+  label: 'Tell us about your project'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

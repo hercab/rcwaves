@@ -1,0 +1,31 @@
+uuid: 72169789-2190-4178-ac4a-f856741f30ac
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:cd6b0518-cd7d-4240-9a65-8c31bd5ba68d'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: calltoaction
+theme: corporate_lite
+region: content_top_highlighted
+weight: -18
+provider: null
+plugin: 'block_content:cd6b0518-cd7d-4240-9a65-8c31bd5ba68d'
+settings:
+  id: 'block_content:cd6b0518-cd7d-4240-9a65-8c31bd5ba68d'
+  label: 'Call to action'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

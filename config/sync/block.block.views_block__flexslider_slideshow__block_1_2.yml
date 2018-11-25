@@ -1,0 +1,30 @@
+uuid: 8e6cf306-af4f-4f1e-a5ef-a058b2906a5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.flexslider_slideshow_
+  module:
+    - system
+    - views
+  theme:
+    - corporate_lite
+id: views_block__flexslider_slideshow__block_1_2
+theme: corporate_lite
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:flexslider_slideshow_-block_1'
+settings:
+  id: 'views_block:flexslider_slideshow_-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

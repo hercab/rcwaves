@@ -1,0 +1,25 @@
+uuid: aed8534b-a04d-4457-820d-60e1fc9e30f0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6b76590d-73ba-42b6-ad92-cab344255a92'
+  module:
+    - block_content
+  theme:
+    - corporate_lite
+id: photogallery
+theme: corporate_lite
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:6b76590d-73ba-42b6-ad92-cab344255a92'
+settings:
+  id: 'block_content:6b76590d-73ba-42b6-ad92-cab344255a92'
+  label: 'Photo Gallery'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

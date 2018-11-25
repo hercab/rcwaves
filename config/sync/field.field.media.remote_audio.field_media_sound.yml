@@ -1,0 +1,19 @@
+uuid: 4a759897-dc08-44ad-90ff-33e1e56d26e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_sound
+    - media.type.remote_audio
+id: media.remote_audio.field_media_sound
+field_name: field_media_sound
+entity_type: media
+bundle: remote_audio
+label: 'Remote Sound URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

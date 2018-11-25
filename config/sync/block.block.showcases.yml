@@ -1,0 +1,31 @@
+uuid: 1a8f5eff-4044-46c4-8291-0864fff444bf
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b861826c-77d6-45fa-805c-74e9be473794'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: showcases
+theme: corporate_lite
+region: highlighted_top
+weight: 0
+provider: null
+plugin: 'block_content:b861826c-77d6-45fa-805c-74e9be473794'
+settings:
+  id: 'block_content:b861826c-77d6-45fa-805c-74e9be473794'
+  label: Showcases
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

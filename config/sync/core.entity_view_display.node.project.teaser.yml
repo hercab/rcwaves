@@ -1,0 +1,34 @@
+uuid: fbcd9ac2-d4fd-4603-9100-c4d27347be58
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project.field_body_project
+    - field.field.node.project.field_tags_project
+    - node.type.project
+  module:
+    - entity_reference_revisions
+    - user
+id: node.project.teaser
+targetEntityType: node
+bundle: project
+mode: teaser
+content:
+  field_body_project:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tags_project: true
+  langcode: true

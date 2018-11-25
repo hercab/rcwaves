@@ -1,0 +1,55 @@
+uuid: 786c3d1b-b7c2-4ff9-9c47-f05cbc212010
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.remote_audio.field_media_sound
+    - image.style.thumbnail
+    - media.type.remote_audio
+  module:
+    - image
+    - media
+    - user
+id: media.remote_audio.default
+targetEntityType: media
+bundle: remote_audio
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_media_sound:
+    type: oembed
+    weight: 6
+    label: above
+    settings:
+      max_width: 0
+      max_height: 0
+    third_party_settings: {  }
+    region: content
+  thumbnail:
+    type: image
+    weight: 5
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  name: true

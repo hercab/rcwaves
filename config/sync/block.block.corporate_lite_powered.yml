@@ -1,0 +1,27 @@
+uuid: 56045ac1-4fbf-420b-9712-b6613b7583ab
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: DoTezHYibJIW1id3PoKL8iscvzPXmtWWo7WSAM8uyrk
+id: corporate_lite_powered
+theme: corporate_lite
+region: sidebar_second
+weight: -9
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/4\r\n/node/10\r\n/contact\r\n<front>"
+    negate: true
+    context_mapping: {  }

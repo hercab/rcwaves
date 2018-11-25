@@ -1,0 +1,165 @@
+uuid: b496eac1-849d-4e7e-bd53-3312f5ed890f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_social_media
+    - paragraphs.paragraphs_type.ido_social
+  module:
+    - social_media_links_field
+id: paragraph.ido_social.field_social_media
+field_name: field_social_media
+entity_type: paragraph
+bundle: ido_social
+label: 'Social media'
+description: 'Add social links to content'
+required: false
+translatable: false
+default_value:
+  -
+    platform: null
+    value: null
+    platform_values:
+      behance:
+        value: ''
+      bitbucket:
+        value: ''
+      contact:
+        value: ''
+      drupal:
+        value: ''
+      email:
+        value: ''
+      facebook:
+        value: ''
+      flickr:
+        value: ''
+      github:
+        value: ''
+      googleplus:
+        value: ''
+      instagram:
+        value: ''
+      Soundcloud:
+        value: ''
+      spotify:
+        value: ''
+      Web:
+        value: ''
+      linkedin:
+        value: ''
+      pinterest:
+        value: ''
+      rss:
+        value: ''
+      slideshare:
+        value: ''
+      tumblr:
+        value: ''
+      twitter:
+        value: ''
+      vimeo:
+        value: ''
+      vkontakte:
+        value: ''
+      youtube:
+        value: ''
+      youtube_channel:
+        value: ''
+default_value_callback: ''
+settings:
+  iconset: 'fontawesome:2x'
+  platforms:
+    behance:
+      description: ''
+      weight: '-10'
+      enabled: 0
+    bitbucket:
+      description: ''
+      weight: '-9'
+      enabled: 0
+    contact:
+      description: ''
+      weight: '-8'
+      enabled: 0
+    drupal:
+      description: ''
+      weight: '-7'
+      enabled: 0
+    email:
+      description: ''
+      weight: '-6'
+      enabled: 0
+    facebook:
+      enabled: '1'
+      description: ''
+      weight: '-5'
+    flickr:
+      enabled: '1'
+      description: ''
+      weight: '-4'
+    github:
+      description: ''
+      weight: '-3'
+      enabled: 0
+    googleplus:
+      enabled: '1'
+      description: ''
+      weight: '-2'
+    instagram:
+      enabled: '1'
+      description: ''
+      weight: '-1'
+    linkedin:
+      enabled: '1'
+      description: ''
+      weight: '0'
+    pinterest:
+      enabled: '1'
+      description: ''
+      weight: '1'
+    rss:
+      description: ''
+      weight: '2'
+      enabled: 0
+    slideshare:
+      description: ''
+      weight: '3'
+      enabled: 0
+    tumblr:
+      description: ''
+      weight: '4'
+      enabled: 0
+    twitter:
+      enabled: '1'
+      description: ''
+      weight: '5'
+    vimeo:
+      enabled: '1'
+      description: ''
+      weight: '6'
+    vkontakte:
+      description: ''
+      weight: '7'
+      enabled: 0
+    youtube:
+      enabled: '1'
+      description: ''
+      weight: '8'
+    youtube_channel:
+      enabled: '1'
+      description: ''
+      weight: '9'
+    Soundcloud:
+      enabled: '1'
+      description: ''
+      weight: '10'
+    spotify:
+      enabled: '1'
+      description: ''
+      weight: '11'
+    Web:
+      enabled: '1'
+      description: ''
+      weight: '12'
+field_type: social_media_links_field

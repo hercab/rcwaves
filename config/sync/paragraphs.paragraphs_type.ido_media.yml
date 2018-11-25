@@ -1,0 +1,9 @@
+uuid: aefa53a4-0502-408e-b43f-cc8e9e7b6045
+langcode: en
+status: true
+dependencies: {  }
+id: ido_media
+label: Media
+icon_uuid: null
+description: 'Use for add media content'
+behavior_plugins: {  }

@@ -1,0 +1,31 @@
+uuid: 9f4ae75c-0073-40c0-9049-8f4091108359
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:7bebbcb3-eb68-40e7-b3ee-c5d3a95fb38c'
+  module:
+    - block_content
+    - system
+  theme:
+    - corporate_lite
+id: uniquefeatures
+theme: corporate_lite
+region: featured_bottom
+weight: 0
+provider: null
+plugin: 'block_content:7bebbcb3-eb68-40e7-b3ee-c5d3a95fb38c'
+settings:
+  id: 'block_content:7bebbcb3-eb68-40e7-b3ee-c5d3a95fb38c'
+  label: 'Unique Features'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

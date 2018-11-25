@@ -1,0 +1,9 @@
+uuid: 09f4f9b4-aed7-4eb0-b99e-d8d36dfbaa7a
+langcode: en
+status: true
+dependencies: {  }
+id: ido_social
+label: Social
+icon_uuid: null
+description: 'Use for add social media'
+behavior_plugins: {  }

@@ -1,0 +1,27 @@
+uuid: 1d35f999-88ed-442e-be02-5671f95a9736
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: mHm3omOwQdkAOjVya_JnAOAAMtueGSFmpjd3-8wUEhA
+id: corporate_lite_page_title
+theme: corporate_lite
+region: content
+weight: -18
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

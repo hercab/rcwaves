@@ -1,0 +1,8 @@
+uuid: 9d0d0aab-6eca-4a1d-9639-45c9c20adc61
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster-menu
+label: 'Webmaster menu'
+description: 'Webmaster menu'
+locked: false

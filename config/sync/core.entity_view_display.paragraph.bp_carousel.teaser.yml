@@ -1,0 +1,25 @@
+uuid: fe3ac9a5-a601-4ff5-9aca-eec020d821e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser
+    - field.field.paragraph.bp_carousel.bp_background
+    - field.field.paragraph.bp_carousel.bp_slide_content
+    - field.field.paragraph.bp_carousel.bp_slide_interval
+    - field.field.paragraph.bp_carousel.bp_width
+    - paragraphs.paragraphs_type.bp_carousel
+_core:
+  default_config_hash: '-64ufU5i6z27pD4G22OwkhCO4dkJicpngb1gNsGLwtw'
+id: paragraph.bp_carousel.teaser
+targetEntityType: paragraph
+bundle: bp_carousel
+mode: teaser
+content: {  }
+hidden:
+  bp_background: true
+  bp_slide_content: true
+  bp_slide_interval: true
+  bp_width: true
+  created: true
+  uid: true
