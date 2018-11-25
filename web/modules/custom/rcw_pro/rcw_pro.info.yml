@@ -1,0 +1,7 @@
+name: 'rcwaves custom stuff'
+type: module
+description: 'Custom Stuff for rc-waves'
+core: 8.x
+package: 'rcwaves-custom'
+dependencies:
+  - better_exposed_filters

@@ -1,0 +1,10 @@
+rcw_filters:
+  version: 1.x
+  css:
+    theme:
+      css/rcw_filters.css: {}
+#  js:
+#    js/rcw_filters.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

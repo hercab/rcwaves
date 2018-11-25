@@ -1,0 +1,16 @@
+.views-exposed-form.bef-exposed-form{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-checkboxes{
+    display: inline-block;
+}
+.form-checkboxes .js-form-item
+{
+    float: left !important;
+    margin-right: 1em !important;
+}
+
+.js-form-item input.form-checkbox{
+    margin: 0 3px 3px 0;
+}

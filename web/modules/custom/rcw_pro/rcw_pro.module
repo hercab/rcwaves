@@ -1,0 +1,48 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: yunior
+ * Date: 11/22/2018
+ * Time: 1:59 PM
+ */
+
+use Drupal\media\Plugin\media\Source\OEmbed;
+
+/**
+ * Implements hook_preprocess_HOOK()
+ * @param $variables
+ */
+
+function rcw_pro_preprocess_bef_checkboxes(&$variables)
+{
+    $variables['#attached']['library'][] = 'rcw_pro/rcw_filters';
+}
+
+function rcw_pro_media_source_info_alter(array &$sources) {
+    $sources['sound'] = [
+    'id' => 'sound',
+    'label' => t('Remote Sound'),
+    'description' => t('Use sound from media internet.'),
+    'allowed_field_types' => ['string'],
+    'default_thumbnail_filename' => 'no-thumbnail.png',
+    'providers' => ['Spotify', 'SoundCloud'],
+    'class' => 'Drupal\media\Plugin\media\Source\OEmbed',
+  ];
+}
+
+/**
+ * Alters an oEmbed resource URL before it is fetched.
+ *
+ * @param array $parsed_url
+ *   A parsed URL, as returned by \Drupal\Component\Utility\UrlHelper::parse().
+ * @param \Drupal\media\OEmbed\Provider $provider
+ *   The oEmbed provider for the resource.
+ *
+ * @see \Drupal\media\OEmbed\UrlResolverInterface::getResourceUrl()
+ */
+/*function rcw_pro_oembed_resource_url_alter(array &$parsed_url, \Drupal\media\OEmbed\Provider $provider) {
+    // Return JSON format.
+    if ($provider->getName() === 'SoundCloud') {
+        $parsed_url['path'] .= '&format=json';
+    }
+}*/
