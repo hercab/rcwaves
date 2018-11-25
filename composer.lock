@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5a60c8b6c801067d348f5c34be93ba3",
+    "content-hash": "fba61d4842af42410b9d269eec64f4d5",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2507,65 +2507,6 @@
             "time": "2018-11-07T14:45:40+00:00"
         },
         {
-            "name": "drupal/corporate_lite",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/corporate_lite",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/corporate_lite-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "8ef1b6d870dbcc941e9d3f0afacd5099a5b226cb"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1529603320",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "evankay",
-                    "homepage": "https://www.drupal.org/user/2912669"
-                },
-                {
-                    "name": "skechagia",
-                    "homepage": "https://www.drupal.org/user/2447146"
-                },
-                {
-                    "name": "skounis",
-                    "homepage": "https://www.drupal.org/user/877552"
-                },
-                {
-                    "name": "vkech",
-                    "homepage": "https://www.drupal.org/user/1451830"
-                }
-            ],
-            "description": "The free version of <a target=\"_blank\" href=\"https://morethanthemes.com/themes/corporateplus?utm_source=corporate-lite-demo&amp;utm_medium=theme-settings&amp;utm_campaign=free-themes\">Corporate+ Drupal 8 theme</a>",
-            "homepage": "https://www.drupal.org/project/corporate_lite",
-            "support": {
-                "source": "http://cgit.drupalcode.org/corporate_lite"
-            }
-        },
-        {
             "name": "drupal/crop",
             "version": "1.5.0",
             "source": {
@@ -3625,6 +3566,61 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/mailsystem"
             }
+        },
+        {
+            "name": "drupal/mimemail",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/mimemail",
+                "reference": "25f919ff7dc6fbc5541385e01c459800a067bee1"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/mailsystem": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2+10-dev",
+                    "datestamp": "1533746584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Allie Micka",
+                    "homepage": "https://www.drupal.org/user/15091"
+                },
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "jerdavis",
+                    "homepage": "https://www.drupal.org/user/228997"
+                },
+                {
+                    "name": "sgabe",
+                    "homepage": "https://www.drupal.org/user/232117"
+                }
+            ],
+            "description": "Sends MIME-encoded emails with embedded images and attachments.",
+            "homepage": "https://www.drupal.org/project/mimemail",
+            "support": {
+                "source": "http://cgit.drupalcode.org/mimemail"
+            },
+            "time": "2018-09-12T19:16:13+00:00"
         },
         {
             "name": "drupal/paragraphs",
@@ -10243,6 +10239,7 @@
         "drupal/dropzonejs": 20,
         "drupal/entity_embed": 20,
         "drupal/image_widget_crop": 20,
+        "drupal/mimemail": 20,
         "drupal/paragraphs": 20,
         "drupal/simplenews": 20,
         "drupal/swiftmailer": 20,
