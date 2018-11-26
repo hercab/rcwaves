@@ -3,3 +3,11 @@ modules:
     none:
       formatter: swiftmailer
       sender: swiftmailer
+  simplenews:
+    none:
+      formatter: swiftmailer
+      sender: swiftmailer
+defaults:
+  formatter: swiftmailer
+  sender: swiftmailer
+theme: current
